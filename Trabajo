@@ -1,0 +1,29 @@
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void ImprimirCabecera(string nombreMateria, int Grupo, string nombredelestudiante)
+        {
+            Console.WriteLine("===============================================");
+            Console.WriteLine("          UNIVERSIDAD DEL CARIBE               ");
+            Console.WriteLine($"ASIGNATURA : {nombreMateria}");
+            Console.WriteLine($"  Grupo: {Grupo}");
+            Console.WriteLine("===============================================");
+            Console.WriteLine($" NOMBRE: {nombredelestudiante}");
+
+
+
+
+
+
+
+
+        }
+         static void Main(string[] args)
+        {
+            ImprimirCabecera("Fundamentos de programacion", 1, "Carlos sandoval");
+
+        }
+       
+    }
+}
