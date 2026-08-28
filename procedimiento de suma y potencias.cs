@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -6,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp9
+namespace ConsoleApp28
 {
     internal class Program
     { //PROCEDIMIENTO SUMAR E IMPRIMIR 
@@ -16,7 +15,7 @@ namespace ConsoleApp9
             Console.WriteLine(suma);
 
         }
-        public  static void ImprimirPotencia(int a, int b)
+        public static void ImprimirPotencia(int a, int b)
         {
             double baseNumero = 5;
             double exponente = 3;
@@ -26,7 +25,7 @@ namespace ConsoleApp9
 
             Console.WriteLine(resultado);
         }
-       static void ModificarValor(int a)
+        static void ModificarValor(int a)
         {
             a = a + 1;
             Console.WriteLine($"DENTRO DEL METODO: {a}");
@@ -39,7 +38,7 @@ namespace ConsoleApp9
             ImprimirSuma(1000, -1);
             ImprimirPotencia(5, 3);
 
-            int edad = 22;
+            int edad = 19;
             Console.WriteLine($"ANTES DEL METODO: {edad}");
             ModificarValor(edad);
             Console.WriteLine($"DESPUES DEL METODO: {edad}");
@@ -47,5 +46,4 @@ namespace ConsoleApp9
         }
     }
 }
-
 
