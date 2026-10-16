@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        string ruta = "carlossandoval.csv";
+        string ruta = "C:\\Users\\SALA-1\\Desktop\\Nueva carpeta\\carlos.csv"
         using (StreamWriter sw = new StreamWriter(ruta))
         {
             sw.WriteLine("Nombre,Edad,Nota");
@@ -17,3 +17,5 @@ class Program
         Console.WriteLine("Archivo creado exitosamente.");
     }
 }
+
+
